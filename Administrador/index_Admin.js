@@ -18,10 +18,13 @@ var usuarios = [user1, user2];
 var usuarioAValidar = [];
 
 function login() {
-    window.location = "../Administrador/index.html";
+    window.location = "../Administrador/Inicio_Admin";
 }
 function buscarElUsuarioRegistrado(user) {
-
     return usuarios.filter(usuario => usuario.correo == user)
+}
 
+
+function Send() {
+    window.location = "../Administrador/SendEmail.html";
 }

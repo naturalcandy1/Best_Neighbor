@@ -33,7 +33,7 @@ function login() {
             sessionStorage.setItem('nombre', usuarioAValidar[0].nombre);
 
             console.log(usuarioAValidar);
-            window.location = "../Recidente/index.html";
+            window.location = "../Residente/Inicio_Res.html";
         } else {
             window.alert("Contraseña incorrecta");
         }
@@ -48,4 +48,8 @@ function buscarElUsuarioRegistrado(user) {
 
     return usuarios.filter(usuario => usuario.correo == user)
 
+}
+
+function Send() {
+    window.location = "../Residente/SendEmail.html";
 }

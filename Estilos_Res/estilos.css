@@ -3,6 +3,17 @@ body {
     margin: 0;
 }
 
+.email-image {
+    width: 140px;
+    height: 140px;
+    background-color: var(--text-input-field);
+    margin-bottom: 24px;
+}
+
+.email-image img {
+	width: 80px;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -69,6 +80,7 @@ p{
         border-radius: 2%;
     }
 }
+
 
 
 
